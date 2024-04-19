@@ -4,8 +4,8 @@ class Sieve{
 
     public:
     Sieve(int n){
-        mx = n;
-        siev.resize(n, true);
+        mx = n+1;
+        siev.resize(n+1, true);
         intialiseSieve();
     }
 
@@ -29,3 +29,5 @@ class Sieve{
         return res;
     }
 };
+
+Sieve sieve = Sieve(1e6);
