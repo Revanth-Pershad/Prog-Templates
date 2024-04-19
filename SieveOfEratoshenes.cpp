@@ -21,4 +21,11 @@ class Sieve{
     bool isPrime(int n){
         return siev[n];
     }
+
+    vector<int> getPrimes(int n){
+        vector<int> res;
+        for(int i = 2; i * i <= n; i++)
+            if(siev[i])res.push_back(i);
+        return res;
+    }
 };
