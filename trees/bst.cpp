@@ -1,3 +1,5 @@
+It is important to return the reference in recursive functions so that the created node is not lost
+
 class TreeNode{
 public:
     int val;
