@@ -1,3 +1,5 @@
+// Finding the closest edges first with the least weight rather than globally
+
 void solve() {
     int n; 
     cin >> n; // Number of nodes
