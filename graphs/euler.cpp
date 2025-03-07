@@ -1,6 +1,7 @@
 // Walk - A random traversal of graph Eg: (A to B to C to A to C) 
 // Trail - A walk in which edges cannot be repeated but Vertices can be
 // Euler Circuit - A trail in which the start and the end is the same vertice and covers all the edges
+// Eulerican Path - Path that visits every edge in a graph exactly once. The starting and ending points of an Eulerian path are different vertices. 
 
 // 1. Undirected Graph
 // Eulerian Circuit (Cycle):
